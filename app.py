@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from submissions import boilergoose, crazy_goose, greedy, pubhrl, risk_adverse_greedy, simple_bfs, simple_toward, straightforward_bfs
+from submissions import boilergoose, crazy_goose, greedy, risk_adverse_greedy, simple_bfs, simple_toward, straightforward_bfs
 import os
 
 # pubhrl_latest.py has issues on line 95.
@@ -10,7 +10,7 @@ agent_dict = {
     "boilergoose": boilergoose,
     "crazy_goose": crazy_goose,
     "greedy": greedy,
-    "pubhrl": pubhrl,
+    # "pubhrl": pubhrl,
     # "pubhrl_latest": pubhrl_latest,
     "risk_adverse_greedy": risk_adverse_greedy,
     "simple_bfs": simple_bfs,
