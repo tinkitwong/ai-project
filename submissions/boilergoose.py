@@ -321,7 +321,7 @@ agent_instance = FloodGoose(min_length=8)
 def agent(obs, conf):
     return agent_instance(obs, conf)
 
-obs = {'remainingOverageTime': 12, 'step': 0, 'geese': [[67], [8], [15], [17]], 'food': [65, 29], 'index': 0}
-conf = {'episodeSteps': 200, 'actTimeout': 6, 'runTimeout': 1200, 'columns': 11, 'rows': 7, 'hunger_rate': 40, 'min_food': 2}
-for i in range(10):
-    print(agent(obs, conf))
+# obs = {'remainingOverageTime': 12, 'step': 0, 'geese': [[67], [8], [15], [17]], 'food': [65, 29], 'index': 0}
+# conf = {'episodeSteps': 200, 'actTimeout': 6, 'runTimeout': 1200, 'columns': 11, 'rows': 7, 'hunger_rate': 40, 'min_food': 2}
+# for i in range(10):
+#     print(agent(obs, conf))
