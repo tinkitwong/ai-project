@@ -20,7 +20,7 @@ agent_dict = {
 
 @app.route("/")
 def index():
-    return "Hello World! This is version V."
+    return "Hello World! This is version VI."
 
 @app.route("/agent", methods=["POST"])
 def getNextMove():
